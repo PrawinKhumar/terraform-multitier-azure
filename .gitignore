@@ -1,0 +1,17 @@
+# Ignore Terraform runtime directories and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.hcl
+
+# Ignore override files
+override.tf
+override.tf.json
+
+# Ignore any editor/IDE artifacts
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# (Add any other patterns you want to skip)
