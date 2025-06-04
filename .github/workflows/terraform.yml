@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        env: [dev, test, prod]
+        env: [ dev, test, prod ]
 
     defaults:
       run:
